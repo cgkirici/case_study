@@ -1,0 +1,13 @@
+# Run dbt deps to install the package(s). Packages get installed in the
+# dbt_modules directory - by default this directory is ignored by git,
+# to avoid duplicating the source code for the package.
+
+# Current version as of 2023-01-18
+
+packages:
+  - package: dbt-labs/dbt_utils
+    version: ['>=1.3.0', '<1.4.0']
+  - package: dbt-labs/codegen
+    version: ['>=0.8.0', '<1.0.0']
+ # - package: dbt-labs/audit_helper
+  #  version: ['>=0.12.1', '<0.13.0']

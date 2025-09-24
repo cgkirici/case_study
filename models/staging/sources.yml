@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: case_study
+    database: my-data-warehouse-349414
+    schema: circ_raw
+    tables:
+      - name: orders_raw
+      - name: order_details_raw
+      - name: users_raw
+      - name: customers_raw
+
