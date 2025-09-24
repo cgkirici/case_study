@@ -29,8 +29,7 @@ quoting:
 models:
   rf360_dwh:
     staging:
-      sap:
+      erp:
         +materialized: view
     marts:
       +materialized: table
-      +tags: daily_update
