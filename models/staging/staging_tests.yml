@@ -7,7 +7,7 @@ models:
         tests:
           - unique
           - not_null
-  - name: stg__orders
+  - name: stg__order_headers
     columns:
       - name: order_id
         tests:
