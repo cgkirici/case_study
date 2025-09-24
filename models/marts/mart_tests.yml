@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: revenue
+    columns:
+      - name: order_detail_id
+        tests:
+          - unique
+          - not_null

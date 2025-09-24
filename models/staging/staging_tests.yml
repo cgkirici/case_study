@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: stg__order_details
+    columns:
+      - name: order_detail_id
+        tests:
+          - unique
+          - not_null
+  - name: stg__orders
+    columns:
+      - name: order_id
+        tests:
+          - unique
+          - not_null
+  - name: stg__users
+    columns:
+      - name: user_id
+        tests:
+          - unique
+          - not_null
+  - name: stg__products
+    columns:
+      - name: product_id
+        tests:
+          - unique
+          - not_null
