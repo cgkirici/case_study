@@ -8,5 +8,5 @@ sources:
       - name: orders_raw
       - name: order_details_raw
       - name: users_raw
-      - name: customers_raw
+      - name: products_raw
 

@@ -1,0 +1,24 @@
+default:
+  outputs:
+    circ_raw:
+      dataset: circ_raw
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: C:/Users/ckirici/Documents/keyfile.json
+      location: europe-west3
+      method: service-account
+      priority: interactive
+      project: my-data-warehouse-349414
+      threads: 4
+      type: bigquery
+    circ:
+      dataset: circ
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: C:/Users/ckirici/Documents/keyfile.json
+      location: europe-west3
+      method: service-account
+      priority: interactive
+      project: my-data-warehouse-349414
+      threads: 4
+      type: bigquery
